@@ -45,15 +45,7 @@ void pop(st *s) {
     printf("Item popped= %d", s->items[s->top]);
     s->top--;
   }
-  
-  ouput:
-  Stack: 4 5 6 7 
-Item popped= 7
-
-After popping out
-Stack: 4 5 6 
-
-  count--;
+ count--;
   printf("\n");
 }
 
@@ -83,3 +75,12 @@ int main() {
   printf("\nAfter popping out\n");
   printStack(s);
 }
+
+
+output:
+ ouput:
+  Stack: 4 5 6 7 
+Item popped= 7
+
+After popping out
+Stack: 4 5 6 
